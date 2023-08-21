@@ -1,3 +1,42 @@
+# SolarNet (PyTorch)
+
+This is a pytorch version to the original implementation ([SolarNet](https://github.com/fengcong1992/SolarNet)).
+
+## Quick start:
+
+-  Installation
+
+```
+conda create -n SolarNet python=3.7
+```
+
+Then, you may install the dependencies with the following command 
+
+```
+conda activate SolarNet
+conda install pip 
+pip3 install torch torchvision torchaudio
+pip install -r requirements.txt
+```
+
+-  Extract the dataset
+
+Upzip the SkyImage_3Days
+
+- Try running `SolarNet_Implementation_Torch.py`, but do not forget to change the provided path for the root directory for the pickel files and image files.
+
+
+- The training MAE is about 10 \% which is similar to the original implementaion. 
+
+- Good luck! 
+
+
+- Below here is the instruction copied from the original implemention (just for comparison).
+
+
+
+================================================================================================
+
 # SolarNet
 A repository hosting code for a series of SolarNet papers, as described in:
 
